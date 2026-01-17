@@ -12,7 +12,8 @@ tar_option_set(
   packages = c(
     "tibble",
     "dataDocumentation",
-    "writexl"
+    "writexl",
+    "dataDownloader"
     ) # Packages that your targets need for their tasks.
   # format = "qs", # Optionally set the default storage format. qs is fast.
   #
@@ -54,5 +55,6 @@ tar_source()
 
 # Replace the target list below with your own:
 combined_plan <- c(
-  metadata_plan
+  metadata_plan,
+  cflux_plan
 )
