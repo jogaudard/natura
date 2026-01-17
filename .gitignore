@@ -53,4 +53,6 @@ rsconnect/
 *.pdf
 *.odt
 *.ods
+*.csv
+*.zip
 
