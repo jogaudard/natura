@@ -18,6 +18,9 @@
 # Output files from R CMD check
 /*.Rcheck/
 
+# Output files from target
+_targets/
+
 # RStudio files
 .Rproj.user/
 
@@ -53,4 +56,11 @@ rsconnect/
 *.pdf
 *.odt
 *.ods
+*.csv
+*.zip
+*.gif
+*.data
 
+outreach_witsieshoek
+data
+raw_data
