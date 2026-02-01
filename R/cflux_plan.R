@@ -63,5 +63,13 @@ cflux_plan <- list(
         CO2 = as.double(CO2),
         .keep = "unused"
       )
+  ),
+  tar_target(
+    name = cflux_partemp_join2026,
+    command = left_join(
+      cflux_read2026,
+      partemp_read2026,
+      by = "datetime"
+    )
   )
 )
